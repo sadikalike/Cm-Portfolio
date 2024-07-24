@@ -12,7 +12,8 @@ export const Hero = () => {
         {/* <h1 className={styles.title}>Hi, I'm Ada</h1> */}
         <p className={styles.description}>
         "എൻറെ കലാമുകൾ ലോകത്തെമ്പാടും പ്രശസ്തമാകും"<br></br>
-        
+        <br></br>
+      
         قُطْبُ العَالَمْ سِي يَم وَلِيُّ اللّهِ المَدَوُورِي رَضِيَ اللهُ عَنْهُ
 </p>
 
@@ -22,8 +23,8 @@ export const Hero = () => {
       </div>
       
       <img
-        src="/assets/hero/cm.png"
-        alt="Hero image of me"
+        src='/assets/hero/cm.png'
+        alt="Shaikuna Ende Muthan"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

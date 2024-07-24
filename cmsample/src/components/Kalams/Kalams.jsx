@@ -2,8 +2,8 @@ import React from 'react'
 import Styles from "./Kalams.module.css"
 
 const kalam = () => {
-  return <section className={Styles.container} id="തിരുമൊഴികൾ 
-">
+  return <section className={Styles.container} id="തിരുമൊഴികൾ">
+
       <h2 className={Styles.title}>തിരുമൊഴികൾ 
       </h2>
       <ul className={Styles.kalam}>

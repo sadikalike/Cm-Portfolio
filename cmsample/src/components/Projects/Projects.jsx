@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Projects.module.css";
 function Projects() {
   return (
-      <section className={styles.container} id="#ബഹുമതികൾ">
+      <section className={styles.container} id="ബഹുമതികൾ">
             <h2 className={styles.title}>ബഹുമതികൾ</h2>
             <div className={styles.ap }>
                   <h3>താജുൽ ഉലമ</h3>

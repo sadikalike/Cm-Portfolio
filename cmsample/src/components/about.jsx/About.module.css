@@ -24,13 +24,14 @@
       align-items: center;
       color: var(--color-text)
       
+      
 }
 .page{
       letter-spacing: 1px;
       line-height: 30px;
       word-spacing: 2px;
       text-align: start;
-      margin-top: 30px;
+      margin-top: 10px;
 }
 .pages{
       text-align: center;
@@ -50,13 +51,15 @@
       }
       .paragrph{
       align-items: center;
+      margin-top: 30px;
       
 }
 .page{
       letter-spacing: 0;
-      line-height: 20px;
+      line-height: 26px;
       word-spacing: 2px;
-      font-size: small;
+      font-size: 14px;
+      
 }
 }
 

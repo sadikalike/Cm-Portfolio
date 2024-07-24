@@ -11,7 +11,12 @@
   margin-right: 10%;
   
 }
-
+.hr{
+  width: 100%;
+  height: 0.5px;
+  color: white;
+    
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -21,8 +26,8 @@
  
 }
 
-.title {
-  font-size: 72px;
+/* .description {
+  font-size: 20px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -31,16 +36,27 @@
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
-  /* -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; */
-}
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+} */
 
 .description {
-  font-size: 30px;
+  font-size: 20px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+
   font-weight: 800;
+  margin-top: 100px;
+  padding: 10px;
+
+  align-items: center;
+  gap: 17px;
+  background-color: #19376d;
+  background: linear-gradient(90deg,#19376d 0%,rgba(25,55,109,0)100%);
+  border-radius: 10px;
 }
+
+
+
 
 .contactBtn {
   text-decoration: none;
@@ -54,15 +70,21 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 400px;
+  
   z-index: 1;
-  border-radius: 5%;
+  border-radius: 2%;
+background-color: azure;
+  
+  
 
   /* animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out; */
 }
+
+
 
 @keyframes floating {
   0% {
@@ -113,3 +135,19 @@
     align-items: center;
   }
 }
+.description {
+  font-size: 18px;
+  font-family: var(--font-roboto);
+  font-weight: 1500;
+  margin-top: 30px;
+margin-right: 20px;
+  align-items: center;
+  gap: 17;
+  background-color: #19376d;
+  background: linear-gradient(90deg,#19376d 0%,rgba(25,55,109,0)100%);
+  border-radius: 10px;
+
+}
+/* .content {
+  padding-top: 100px;
+} */

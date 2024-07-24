@@ -21,19 +21,7 @@ function App() {
       <Projects/>
       <Samplek/>
       <Foot/>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-         </div>
+       </div>
   );
 }
 

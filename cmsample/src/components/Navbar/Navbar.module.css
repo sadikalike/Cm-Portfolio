@@ -46,9 +46,10 @@
   list-style: none;
 }
 
-:hover.menuItems{
-  text-shadow:200px ;
-}
+/* .menuItems:hover{
+  color: black ;
+  background-color: azure;
+} */
 
 .menuItems a {
   font-size: 17px;

@@ -10,7 +10,7 @@
       z-index: 1; 
       margin-left: 10%;
       margin-right: 10%;
-      box-shadow: 10px 10px 10px 7px rgba(255, 255, 255, 0.1); /* Optional shadow for better visibility */
+      box-shadow: 6px 6px rgba(255, 255, 255, 0.1); /* Optional shadow for better visibility */
 
  } 
  .title{

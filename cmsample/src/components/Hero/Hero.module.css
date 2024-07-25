@@ -81,6 +81,7 @@
   width: 400px;
   z-index: 1;
   border-radius: 2%;
+  box-shadow: 4px 8px rgba(4, 2, 32, 0.1);
 
   
   
@@ -169,4 +170,5 @@ margin-right: 20px;
   width: 360px;
   z-index: 1;
   border-radius: 2%;
+  box-shadow: 4px 6px rgba(12, 12, 12, 0.1);
 }

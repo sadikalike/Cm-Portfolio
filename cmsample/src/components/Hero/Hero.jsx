@@ -23,7 +23,7 @@ export const Hero = () => {
       </div>
       
       <img
-        src='./assets/cm.png'
+        src="./assets/cm.png"
         alt="Shaikuna Ende Muthan"
         className={styles.heroImg}
       />

@@ -3,23 +3,18 @@
 
 
 
+
 .navbar {
   position: relative;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-background); /* Adjust as needed */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding: 30px;
-  z-index: 2;
-  margin: 0;
-  /* background-color: rgb(18, 55, 124); */
-  background-color: linear-gradient(
-    0deg,
-    rgba(170, 173, 179, 0.2) 0%,
-    rgb(119, 129, 148) 100%
-  );
-  width: 100%;
-  height: 100px;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensure it stays on top */
+  box-shadow: 0 2px 5px rgba(235, 238, 239, 0.1); /* Optional shadow for better visibility */
 }
 
 .title {
@@ -32,6 +27,7 @@
 .menuBtn{
   display: none; /* Hide by default */
   cursor: pointer;
+ 
 }
 .menu {
   display: flex;

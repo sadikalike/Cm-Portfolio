@@ -6,12 +6,15 @@ import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
    <div>
-    <hr className={styles.hr}></hr>
+    {/* <div className={styles.hr}>
+    <hr></hr>
+    </div>  */}
+  
     <section className={styles.container} >
         <div className={styles.content}>
         {/* <h1 className={styles.title}>Hi, I'm Ada</h1> */}
         <p className={styles.description}>
-        "എൻറെ കലാമുകൾ ലോകത്തെമ്പാടും പ്രശസ്തമാകും"<br></br>
+        "എൻറെ കലാമുകൾ ലോകത്തെമ്പാടും പ്രശസ്തമാകും..!"<br></br>
         <br></br>
       
         قُطْبُ العَالَمْ سِي يَم وَلِيُّ اللّهِ المَدَوُورِي رَضِيَ اللهُ عَنْهُ

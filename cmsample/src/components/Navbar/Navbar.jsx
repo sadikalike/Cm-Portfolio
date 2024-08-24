@@ -28,7 +28,7 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
         CM VALIYULLAHI
-        <br /> MADAVOOR
+        <br /> MADAVOOR  ( R )
       </a>
       <div className={styles.menu}>
         <h1 className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>

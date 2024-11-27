@@ -15,8 +15,8 @@ function Foot() {
         </ul>
       </div>
       <div className={Styles.footerText}>
-        <p>2024 All Rights Reserved By <span className={Styles.highlight}>@sadikalikeDev</span></p>
-        <p>Distributed by <span className={Styles.highlight}>sadikalike7@gmail.com</span></p>
+        <p>2024 All Rights Reserved By <span className={Styles.highlight}>@cm-delight</span></p>
+        <p>Distributed by <span className={Styles.highlight}>cm-delight</span></p>
       </div>
     </footer>
   );
